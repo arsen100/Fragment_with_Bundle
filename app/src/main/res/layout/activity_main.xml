@@ -14,4 +14,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+    
+    
+    
+    <fragment
+        android:name="com.my_research_app.grd.fragmet_bundle.MyFragment"
+        android:id="@+id/frag"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    </fragment>
+    
 </RelativeLayout>
